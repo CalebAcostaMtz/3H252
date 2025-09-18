@@ -1,0 +1,17 @@
+@startuml diagrama
+
+class Usuario
+class Foco{
+   - EstadoFoco estado
+   +Encender()
+   +Apagar()
+   +EstadoFoco MostrarEstado()
+}
+class EstadoFoco
+
+Usuario o-- Foco
+Foco *-- EstadoFoco
+EstadoFoco --|> bool 
+
+@enduml
+
