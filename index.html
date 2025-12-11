@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>NUMPUZ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>NUMPUZ</h1>
+
+    <section class="controls">
+      <button id="startBtn">Iniciar juego</button>
+      <div class="audio-control">
+        <button id="muteBtn">Sonido</button>
+        <label for="vol">Volumen</label>
+        <input id="vol" type="range" min="0" max="1" step="0.01" value="0.5">
+      </div>
+    </section>
+
+    <section class="status">
+      <div>Movimientos: <span id="moves">0</span></div>
+      <div>Tiempo: <span id="time">00:00</span></div>
+    </section>
+
+    <section id="board" class="board"></section>
+
+    <audio id="bgAudio" loop preload="auto">
+      <source src="assets/music.mp3" type="audio/mpeg">
+      <!-- Para usar una URL pública, reemplace la línea anterior con la URL de su elección. -->
+    </audio>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
