@@ -1,15 +1,41 @@
-# NUMPUZ — Rompecabezas deslizante
+### 🎯 Objetivo del Juego
 
-Juego web simple del clásico rompecabezas 15 (4x4).
+Acomodar números de menor a mayor en el menor tiempo posible. Los números son del 1 al 9, 1 al 15 o 1 al 25.
 
-Cómo usar:
+### 🎮 Controles
 
-- Abrir [index.html](index.html) en un navegador moderno.
-- Hacer clic en `Iniciar juego` para mezclar y comenzar el temporizador.
-- Usar el botón `Sonido` para silenciar/activar y la barra `Volumen` para ajustar la música.
+Lista los controles:
 
-Música:
+- Mouse: seleccionar/mover
 
-- Por defecto el juego busca `assets/music.mp3`. Coloca tu pista en esa ruta.
-- Si prefieres usar una URL pública, edita `index.html` y cambia la `source` del elemento `<audio>`.
+### ⚙️ Mecánicas
+
+Seleccionar un número que esté en seguida de un espacio vacío para moverlo de forma que puedas organizar todos los números en orden. 
+
+### 🏆 Características
+
+- Interactivo
+- Facil de usar
+- Divertido
+
+### 👥 Equipo
+
+- **Líder**: Caleb Acosta Martinez (@CalebAcostaMtz)
+- **Integrante 2**:Pablo Isaac Jacobo Guzman Garcia (@isaacjacoboguzman)
+
+### 🛠️ Tecnologías
+
+-Motor/Framework: Desarrollo Web Nativo (Vanilla JS) / No aplica motor gráfico.
+-Lenguaje: HTML5, CSS3, JavaScript.
+-Librerías adicionales: Ninguna (Uso de APIs nativas del navegador y scripts propios: style.css y script.js).
+
+
+### 📜 Créditos
+
+- Assets de terceros utilizados: una laptop prestada 
+
+- Referencias o inspiraciones de los juegos mexicanos hechos de plastico chafa que no recordaron nuestra infancia.
+
+- Agradecimientos a todos los que apoyaron el juego.
+
 # 3H252
